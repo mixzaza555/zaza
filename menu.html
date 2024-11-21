@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระดับกิจกรรม</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap" rel="stylesheet"> <!-- ลิงก์ฟอนต์ Sarabun -->
+    <style>
+        body {
+            font-family: 'Sarabun', Arial, sans-serif; /* ใช้ฟอนต์ Sarabun */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f4f8; /* สีพื้นหลังอ่อน */
+        }
+        .login-container {
+            border: 1px solid #ccc;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: white; /* สีพื้นหลังของกล่อง */
+            width: 500px; /* ความกว้างของกล่อง */
+            transition: transform 0.2s; /* การเคลื่อนไหวเมื่อมีการโฟกัส */
+        }
+        .login-container:hover {
+            transform: scale(1.02); /* ขยายเมื่อชี้เมาส์ */
+        }
+        h1 {
+            color: purple; /* สีของหัวข้อหลัก */
+            margin: 10px 0;
+        }
+        h2 {
+            color: #666; /* สีของหัวข้อรอง */
+            font-weight: normal;
+            font-size: 23px;
+            margin: 5px 0 20px 0; /* ระยะห่าง */
+        }
+        .login-button {
+            margin: 5px 0;
+            width: 95%;
+            padding: 12px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px; /* ขนาดฟอนต์ของปุ่ม */
+            transition: background-color 0.3s; /* การเปลี่ยนสีเมื่อโฮเวอร์ */
+            text-decoration: none; /* ไม่ให้มีขีดเส้นใต้ */
+            display: inline-block; /* ให้เป็นบล็อกสำหรับการคลิก */
+            text-align: center; /* จัดข้อความให้อยู่กลาง */
+        }
+        .login-button:hover {
+            background-color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>SRRU GO</h1>
+        <h2>ระบบค้นหาข้อมูลการเข้าร่วมกิจกรรมของนักศึกษา</h2>
+        <a href="University activity level/University level.html" class="login-button">ระดับมหาลัย</a> <!-- Corrected link -->
+        <a href="University activity level/Faculty level.html" class="login-button">ระดับคณะ</a> <!-- Corrected link -->
+    </div>
+</body>
+</html>
